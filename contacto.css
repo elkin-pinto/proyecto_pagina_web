@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Maven+Pro:wght@400;700&display=swap&#39;');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Maven+Pro:wght@400;700&display=swap&#39;');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+/* Header*/
+header {
+    width: auto;
+    height: 20%;
+}
+header div {
+    width: auto;
+}
+
+#header-icon {
+    background-color:#0A91AB;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+#header-icon figure {
+    height: 70%;
+    width: auto;
+    margin: auto;
+}
+#header-icon figure img {
+    height: 100%;
+    width: auto;
+}
+
+#sticky-header {
+    background-color: #FFC045;
+    z-index: 1;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    border-bottom: 3px solid gray;
+    top: 0px;
+}
+#sticky-header a {
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+    margin: auto;
+    margin-left:12px;
+    margin-right:12px;
+    font-weight: 450;
+}
+
+#sticky-header a:hover {
+    color: #0A91AB;
+}
+main h1 {
+    color:#0A91AB;
+    font-size: 45px;
+    margin-left: 30px
+}
+#mapas {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+}
+#mapas article {
+    width: 500px;
+}
+#mapas article > h2 {
+    margin-left: 20px;
+    color: #FFC045;
+} 
+#mapas article > figure {
+    border: 3px dotted #FFC045;
+    width: 400px;
+    height: 300px;
+}
+#mapas article > div {
+    display: flex;
+    margin-left: 50px;
+}
+#mapas article > div figure {
+    width: 50px;
+    height: 50px;
+}
+#mapas article > div figure img {
+    width: 100%;
+    height: 100%;
+}
+#mapas article > div p {
+    margin: auto;
+    margin-left: 10px;
+}
+#mapas_formularios {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#formulario {
+    width: 40%;
+}
+#formulario form {
+    border: 4px solid #FFC045;
+    outline: 2px solid black;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: min-content;
+    position: sticky;
+    top: 200px;
+}
+#formulario form > input {
+    border: none;
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 180px;
+    background-color: rgba(238, 230, 230, 0.719);
+    border: 1px solid black;
+    outline: 1px solid darkgray;
+    color: black;
+    text-align: center;
+}
+#formulario form > input:focus {
+    background-color: rgba(141, 140, 140, 0.863);
+}
+#formulario form > textarea {
+    border: none;
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 180px;
+    background-color: rgba(238, 230, 230, 0.719);
+    border: 1px solid black;
+    outline: 1px solid darkgray;
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#formulario form > textarea:focus {
+    background-color: rgba(141, 140, 140, 0.863);
+}
+#formulario form > div{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    gap: 20px;
+}
+#titulos {
+    display: flex;
+}
+#titulos h1:first-child {
+    width: 55%;
+}
+#sumbit {
+    width: 140px !important;
+    background-color: #FFC045 !important;
+}
+#sumbit:hover {
+    background-color: #d3a039 !important;
+}
